@@ -8,7 +8,7 @@
   },
   "types": "src/main.mts",
   "name": "gede-book-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "歌德电子书 API Express Router",
   "main": "js/main.mjs",
   "scripts": {
