@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "gede-book-api": "^1.0.15"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  },
+  "types": "src/main.mts",
+  "name": "gede-book-server",
+  "version": "1.0.0",
+  "description": "歌德电子书 API Express Router",
+  "main": "js/main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuroc/gede-book-server.git"
+  },
+  "keywords": [
+    "gede",
+    "book",
+    "express",
+    "router"
+  ],
+  "author": "iuroc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iuroc/gede-book-server/issues"
+  },
+  "homepage": "https://github.com/iuroc/gede-book-server#readme"
+}
