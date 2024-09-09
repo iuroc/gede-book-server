@@ -19,8 +19,7 @@ export function sendRes(res: Response, success: boolean, message: string | null,
 }
 
 export const errorHandler = (res: Response, error: unknown) => {
-    if (error instanceof TypeError) sendRes(res, false, '参数类型错误')
-    else if (error instanceof Error) sendRes(res, false, error.message)
+    if (error instanceof Error) sendRes(res, false, error.message)
 }
 
 export const handlerApi = (router: Router, cls: Book | Magazine) => {

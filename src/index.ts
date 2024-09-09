@@ -1,8 +1,8 @@
 import express, { Router } from 'express'
-import book from './book.mjs'
-import magazine from './magazine.mjs'
+import book from './book.js'
+import magazine from './magazine.js'
 
-const router = Router()
+const router: express.Router = Router()
 
 router.use(express.json())
 router.use('/book', book)
